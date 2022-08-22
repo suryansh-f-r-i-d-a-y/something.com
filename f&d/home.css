@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.before-content {
+    background-image: url(/images/galaxy-s22_highlights_kv_img.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 100vh;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+    font-size: 30px;
+
+}
+
+
+.main-content {
+    display: block;
+    width: fit-content
+}
+
+.before-content h2,
+h3 {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    width: fit-content;
+    /* position: relative;
+    left: 20%; */
+}
+
+h3 {
+    font-size: 28px;
+    display: block;
+}
+
+#main-co {
+    position: relative;
+    left: 12%;
+    top: 36%;
+}
+
+.headphones {
+    color: whitesmoke;
+    background-color: #000;
+    height: 110vh;
+    margin-top: 150px;
+    display: flex;
+}
+
+.content-image img {
+
+    height: 92vh;
+    position: absolute;
+    padding-top: 35px;
+    right: 0px;
+}
+
+.content-image img:hover {
+    height:100vh;
+    transition: 0.5s;
+    transform: rotate(2deg) ;
+    }
+
+.content-image img:not(:hover){
+    height:92vh;
+    transition: 0.5s;
+}
+
+.headphone_desc {
+    font-family: 'Samsung Sharp Sans', sans-serif;
+    font-weight: bold;
+    display: block;
+    width: fit-content;
+}
+
+.headphone_desc h2 {
+    margin: 0px;
+    font-size: 50px;
+    position: relative;
+    top: 40%;
+    left: 40%
+}
+
+.headphone_desc h3 {
+    position: relative;
+    top: 40%;
+    left: 40%;
+}
+
+.headphone_desc h4 {
+    position: relative;
+    top: 41%;
+    left: 23%;
+}
+
+.iphone {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+.iphone img {
+    height: 380px;
+    margin-top: 60px;
+}
+
+.two_in_one {
+    display: flex;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    flex-flow: row;
+    justify-content: space-evenly;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+    font-size: 30px;
+}
+
+.laptops img {
+    height: 520px;
+}
+
+.laptops h2 {
+    position: relative;
+    top: 4%;
+    left: 38%;
+    margin: 0;
+}
+
+.smartwatches img {
+    height: 550px;
+    padding-right: 50px;
+}
+
+.smartwatches h2 {
+    display: block;
+    width: fit-content;
+    position: relative;
+    left: 18%;
+    margin: 0;
+}

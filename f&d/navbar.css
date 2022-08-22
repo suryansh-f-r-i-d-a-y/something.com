@@ -1,0 +1,80 @@
+html{
+    scroll-behavior: smooth;
+  }
+
+.header {
+    list-style: none;
+    display: inline-block;
+    margin: 30px;
+    padding: 20px;
+}
+
+li {
+    display: table-cell;
+    color: black;
+    /* padding-right: 10px;
+    padding-left: 10px; */
+    margin: 10px;
+}
+
+ul {
+    display: table;
+    align-items: center;
+    margin: auto;
+    padding: 0%;
+}
+
+a {
+    color: black;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+
+.main-header {
+    display: flex;
+    padding: 8px;
+    max-height: 70px;
+}
+
+.main-header ul {
+
+    align-items: center;
+}
+
+.top-between {
+    display: flex;
+    padding: 0px;
+}
+
+.logo {
+    font-family: 'Samsung Sharp Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    display: -webkit-box;
+    padding-left: 17px;
+}
+
+.seach1 img {
+    height: 24px;
+    width: 24px;
+}
+
+.topright img {
+    height: 24px;
+    width: 24px;
+
+}
+
+.top-right li img {
+    height: 24px;
+    padding: 0px;
+}
+
+.topright ul {
+    padding: 0px;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="footer.css">
+    <link href="http://fonts.cdnfonts.com/css/samsung-sharp-sans" rel="stylesheet">
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <title>login.</title>
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/samsung-sharp-sans');
+    </style>
+</head>
+
+<body>
+    <div class="main-header">
+        <a href="index.html"><span class="logo">something.</span></a>
+        <ul class="top-between">
+            <li class="home1"><a href="index.html">Home</a></li>
+            <li><a href="about_us.html">About</a></li>
+            <li><a href="contact.asp">Contact</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+
+        </ul>
+
+        <div class="top-right">
+            <ul>
+                <li calss="search1"><a href=""><img src="/images/search.png" alt=""></a></li>
+                <li calss="search1"><a href=""><img src="/images/711897.png" alt=""></a></li>
+                <li calss="search1"><a href="login.html"><img src="/images/account.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="login-page">
+        <div class="slogan">
+            <h2>
+                buy anything at
+            </h2>
+            <h1>
+                something.com
+            </h1>
+        </div>
+        <div class="form-container">
+            <form>
+                <label> Username:</label>
+                <input placeholder="Username" id="username">
+                <label> Password:</label>
+                <input placeholder="Password" id="password">
+
+            </form>
+
+            <button id="login" class="login-btn">
+                login
+            </button>
+
+            <h2 style="display:flex;">don't have an account? <a href="signup.html"
+                    style="font-size:20px; text-decoration:underline">signup</a></h2>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function checkFormEntry() {
+            var a = document.getElementById("username").value;
+            var b = document.getElementById("password").value;
+
+            if (a == "") {
+
+                alert("Please Enter the Username");
+                return false;
+            }
+
+            if (b == "") {
+
+                alert("Please Enter the Password");
+                return false;
+            }
+
+            else {
+                alert("You have Successfully logged in.");
+                window.location.href = ("index.html");
+                return false;
+            }
+        }
+
+        document.getElementById("login").onclick = checkFormEntry;
+
+
+    </script>
+
+</body>
+
+</html>

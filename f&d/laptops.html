@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="laptop.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <link href="http://fonts.cdnfonts.com/css/samsung-sharp-sans" rel="stylesheet">
+    <title>laptops.</title>
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/samsung-sharp-sans');
+    </style>
+    <style>
+
+
+#lap1{
+    display: relative;
+}
+
+
+      .modal {
+    display: none;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+
+#myImg{
+    position: relative
+    top:12px;
+}
+
+
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+        
+
+    </style>
+</head>
+
+
+
+<body>
+
+
+    <div class="main-header">
+        <a href="index.html"><span class="logo">something.</span></a>
+        <ul class="top-between">
+            <li class="home1"><a href="index.html">Home</a></li>
+            <li><a href="about_us.html">About</a></li>
+            <li><a href="#social">Contact</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+
+        <div class="top-right">
+            <ul>
+                <li calss="search1"><a href=""><img src="/images/search.png" alt=""></a></li>
+                <li calss="search1"><a href=""><img src="/images/711897.png" alt=""></a></li>
+                <li calss="search1"><a href="login.html"><img src="/images/account.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    <div class="laptops1">
+
+        <div class="banner">
+            <a href="#">
+                <div class="banner_text">
+                    <h2>thin and light</h2>
+                    <h3>windows laptops</h3>
+                    <h5>powered by intel</h5>
+                </div>
+                <div class="intel_sticker">
+                    <img id="intel-sticker1"
+                        src="https://upload.wikimedia.org/wikipedia/commons/0/06/Intel_Core_i9_Logo_2020.png" alt="">
+                    <img id="intel-sticker2" src="https://www.xda-developers.com/files/2021/08/Intel-Arc.jpg" alt="">
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="laptops2">
+        <div class="lappy">
+       
+            
+                
+                <img id="myImg" src="https://assets3.razerzone.com/VNpuv0bd3nJlFdoiDtaz9HrnRgU=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh8e%2Fh96%2F9233352982558%2FRazer-Book-Evo-500x500.png"
+                    alt="">
+             
+           
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+              </div>
+
+
+            <div class="product_specs">
+                <div class="p_name">
+                    <p>Razer Book 14</p>
+                </div>
+                <div class="specs-more">
+                    <ul>
+                        <li style="color:white">Intel Core i5-1135G7</li>
+                        <li style="color:white">Windows 11 Home</li>
+                        <li style="color:white">13.4" 60Hz Full HD</li>
+                        <li style="color:white">8GB 4267MHz RAM, 256GB SSD</li>
+                    </ul>
+                </div>
+                <div class="button">
+                    <button id="buy-btn">buy now</button>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="lappy">
+        
+                <img  id="myImg1" src="https://assets3.razerzone.com/JDtuwJjQwztuOBEjsCgptKPP8mI=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh49%2Fh93%2F9392074293278%2Frazerbook-quartz-m15-2-500x500.png"
+                    alt="">
+
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img02">
+                        <div id="caption"></div>
+                      </div>
+          
+
+            <div class="product_specs">
+                <div class="p_name">
+                    <p>Razer Book 13.4</p>
+                </div>
+                <div class="specs-more">
+                    <ul>
+                        <li style="color:white">AMD Ryzen™ 9 6900HX</li>
+                        <li style="color:white">Windows 11 Home</li>
+                        <li style="color:white">13.4" 60Hz Full HD</li>
+                        <li style="color:white">16GB 4800MHz RAM, 1TB SSD</li>
+
+                </div>
+                <div class="button">
+                    <button id="buy-btn">buy now</button>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="lappy">
+            <!-- <a href="#"> -->
+                <img id="myImg"  src="https://assets3.razerzone.com/VHAUmbe4ZRyIwRn6tvmuMwc41v8=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh2d%2Fhe5%2F9392073998366%2Fblade15-ch8-fhd-2-500x500.png"
+                    alt="">
+
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                      </div>
+            <!-- </a> -->
+
+            <div class="product_specs">
+                <div class="p_name">
+                    <p>Razer Book 15</p>
+                </div>
+                <div class="specs-more">
+                    <ul>
+                        <li style="color:white">Intel Core i5-1135G7</li>
+                        <li style="color:white">Windows 11 Home</li>
+                        <li style="color:white">13.4" 60Hz Full HD</li>
+                        <li style="color:white">8GB 4267MHz RAM, 256GB SSD</li>
+                    </ul>
+                </div>
+                <div class="button">
+                    <button id="buy-btn">buy now</button>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="lappy">
+            <span class="close">&times;</span>
+            <!-- <a href="#"> -->
+
+                <img id="myImg" src="https://assets3.razerzone.com/zStdp4z65eHbNaNUG-wHlRp9lzc=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhbd%2Fh06%2F9286402375710%2Fblade14-p8-fhd-500x500.png"
+                    alt="">
+
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                      </div>
+
+            <!-- </a> -->
+
+            <div class="product_specs">
+                <div class="p_name">
+                    <p>Razer Book 17 (2021)</p>
+                </div>
+                <div class="specs-more">
+                    <ul>
+                        <li style="color:white">Intel Core i9-12900H</li>
+                        <li style="color:white">Windows 11 Home</li>
+                        <li style="color:white">17.3" 240Hz QHD
+                        </li>
+                        <li style="color:white">16GB 4800MHz RAM, 1TB SSD</li>
+                    </ul>
+                </div>
+                <div class="button">
+                    <button id="buy-btn">buy now</button>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <footer id="about">
+        <div class="footer-content">
+            <h3>we are something :)</h3>
+
+            <p>Electronic Design is the premier independent information source for electronics engineers that provide
+                must-have, fully comprehensive coverage of the electronics industry through its vast network of experts.
+                Electronic Design covers the technologies required for engineers to make the right design decisions at
+                the right time – quickly & efficiently.
+                Happy shopping!!</p>
+            <p>Contact Us:</p>
+            <ul class="social">
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.whatsapp.com/" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                <li><a href="https://telegram.org/" target="_blank"><i class="fa fa-telegram"></i></a></li>
+                <li><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2022 something. designed by <span>@suryansh
+                </span></p>
+        </div>
+    </footer>
+
+    <script>
+        function swipe() {
+            window.open("https://assets3.razerzone.com/VHAUmbe4ZRyIwRn6tvmuMwc41v8=/300x300/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh2d%2Fhe5%2F9392073998366%2Fblade15-ch8-fhd-2-500x500.png")
+        }
+
+
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("myImg");
+        // var img = document.getElementsByClassName("myImg");
+        var modalImg = document.getElementById("img01");
+        
+        var captionText = document.getElementById("caption");       
+        img.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+    </script>
+
+</body>
+
+</html>

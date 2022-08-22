@@ -1,0 +1,82 @@
+html{
+    scroll-behavior: smooth;
+  }
+
+body{
+    font-family: 'Samsung Sharp Sans', sans-serif; 
+
+}
+
+.login-page{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+
+
+.slogan h1{
+    font-size: 50px;
+    margin:0;
+}
+.slogan h2{
+    margin:0;
+}
+
+.slogan{
+    position: relative;
+    top: 34vh;
+    left: 10vh;
+}
+
+.form-container{
+    position: relative;
+    top: 15vh;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.form-container label{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    right: 16px
+    
+
+}
+
+.form-container input{
+   
+    display:inline;
+    width: 20vw;
+    border-radius: 16px;
+    border-color: black;  
+    border-width:3px;
+    font-size: 20px;
+padding: 10px;}
+
+.login-btn {
+    padding: 2px 2px;
+    background: #000;
+    /* color:white; */
+    background: white;
+    border-radius: 16px ;
+    height: 3.5vw ;
+    width: 7vw;
+    margin-top: 2vw ;
+    border-width: 3px;
+    font-size: 20px;
+    align-self: center;
+}
+
+.login-btn:hover{
+    background:black;
+    color:white;
+}
+
+
